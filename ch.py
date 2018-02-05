@@ -23,7 +23,7 @@ input_last_name = input("Def Last Name: ").upper() # todo: string verify
 input_DOB = input("Def DOB: ") # todo: string format/date verify
 
 ##### OPEN FILE HANDLE  ########################
-f = open("C:\\Users\\203644\\Downloads\\defendant.txt", 'w')
+f = open("C:\\Users\\XXXXXX\\Downloads\\defendant.txt", 'w')
 
 
 # COCOURTS VARIABLES
@@ -222,4 +222,4 @@ with requests.Session() as s:
 	f.write("\nNumber of Cases in Themis: " + str(int(len(list_nxtCourtDates) / 10)))
 	f.write("\nFailures to Appear: " + str(count_FTA))
 	f.close()
-	subprocess.call(['C:\\windows\\system32\\notepad.exe', 'C:\\Users\\203644\\Downloads\\defendant.txt'])
+	subprocess.call(['C:\\windows\\system32\\notepad.exe', 'C:\\Users\\XXXXXX\\Downloads\\defendant.txt'])
